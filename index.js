@@ -14,6 +14,7 @@ function generate(options, done) {
     file: 'CHANGELOG.md',
     subtitle: '',
     log: console.log.bind(console),
+    anchor: false,
   }, options || {});
 
   if (!options.version) {
